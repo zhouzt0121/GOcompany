@@ -5,7 +5,6 @@ import android.app.Application
 class GoApplication : Application() {
     override fun onCreate() {
         super.onCreate()
-        // Initialize application components
         initializeApp()
     }
 
